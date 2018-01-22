@@ -3,9 +3,8 @@
 .lightPro th, .lightPro td { border: 1px dotted #666; padding: 0.1em 0.3em; text-align: left; color: #055f81; }
 .lightPro th[scope=col] { color: #fff; background-color: #582E00; text-transform: uppercase; font-size: 1.1em; border-bottom: 1px dotted #FFF; border-right: 1px dotted #FFF; padding-left: 6px; }
 .lightPro th[scope=row] { width: 140px; background-color: #eee; border-right: 2px solid #333; font-size: 1.2em; color: #582E00; }
-.lightPro tr.alt td { vertical-align: top; }
 .lightPro tr.alt th[scope=row], .lightPro tr.alt td { color: #055f81; }
-.lightPro tr.alt td { background-color: #eee; }
+.lightPro tr.alt td { background-color: #eee; vertical-align: top !important;}
 .lightPro tr:hover th[scope=row], .lightPro tr:hover td, .lightPro tr:hover { background-color: #F4FF9A; color: #000; }
 .lightPro tr.alt td a, .lightPro tr td a { color: rgb(188,0,47); text-decoration: underline; }
 .lightPro tr.alt td a:hover, .lightPro tr td a:hover { color: rgb(47,0,188); text-decoration: underline; }
