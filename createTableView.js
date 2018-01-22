@@ -1,3 +1,4 @@
+
 // This function creates a standard table with column/rows
 // Parameter Information
 // objArray = Anytype of object array, like JSON results
